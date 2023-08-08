@@ -18,7 +18,7 @@ Also not accepted
 ```
 
 
-# Assumption 2: a triangle must not be empty and each level must be exactly one element greater than the previous level
+# Assumption 2: a triangle must not be empty, the top level must have one element, and each level must be exactly one element greater than the previous level
 
 ```
 1
