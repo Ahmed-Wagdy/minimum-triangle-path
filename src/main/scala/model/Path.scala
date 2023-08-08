@@ -5,5 +5,5 @@ case class Path(sum: Int, value: List[Int]) {
     if (this.sum < that.sum) this else that
   }
 
-  def show: String = s"Minimum path is: ${value.mkString(" + ")}  = $sum"
+  def show: String = s"Minimal path is: ${value.mkString(" + ")} = $sum"
 }
