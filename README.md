@@ -60,3 +60,10 @@ Or
 2 3 4
 (empty line here)
 ```
+
+### you can pipe the data from file to stdIn using jar:
+```
+ cat {TEST_DATA} |  java -jar {PATH_TO_JAR}
+ 
+ *please make sure that the test data file's last line is `EOF`
+```
